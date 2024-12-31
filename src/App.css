@@ -64,3 +64,17 @@ h6 {
   padding: 0.25em 0.3em;
 }
 
+@media (max-width: 720px) {
+  .toolbar {
+    gap: 8px;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    padding: 20px;
+  }
+  .editor{
+    height: 100vh;
+    margin-top: 150px;
+  }
+}
